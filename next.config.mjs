@@ -6,4 +6,9 @@ const withPWA = withPWAInit({
 
 export default withPWA({
   // Your Next.js config
+  output: 'export',
+  distDir: "dist",
+  images: {
+    unoptimized: true,
+  }
 });
